@@ -1,0 +1,31 @@
+.footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding: 100px;
+}
+
+.footer-logo-box {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-text {
+  font-size: 16px;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.logo-footer {
+  color: #f4f4fd;
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.logo-first {
+  color: #4d5ae5;
+}
