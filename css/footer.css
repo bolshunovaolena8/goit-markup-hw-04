@@ -3,12 +3,16 @@
   color: #ffffff;
   padding: 100px;
 }
+.footer-container {
+  display: flex;
+}
 
 .footer-logo-box {
   width: 264px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-right: 120px;
 }
 .footer-text {
   font-size: 16px;
@@ -28,4 +32,25 @@
 }
 .logo-first {
   color: #4d5ae5;
+}
+.footer-social-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-social-link {
+  background-color: #4d5ae5;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-link:hover {
+  background-color: #31d0aa;
 }

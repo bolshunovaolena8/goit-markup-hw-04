@@ -22,6 +22,8 @@
 }
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-item img {
@@ -54,4 +56,28 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.overlay {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+}
+.portfolio-item:hover .overlay {
+  transform: translateY(0);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
