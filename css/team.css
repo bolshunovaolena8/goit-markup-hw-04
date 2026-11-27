@@ -51,3 +51,31 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.team-social-list {
+  display: flex;
+  gap: 24px;
+  /* align-items: center; */
+  justify-content: center;
+  color: #ffffff;
+}
+.team-social-item {
+  transition: background-color 250ms;
+}
+.team-social-link {
+  background-color: #4d5ae5;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-social-link:hover {
+  background-color: #404bbf;
+}
+.team-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4f4fd;
+}
